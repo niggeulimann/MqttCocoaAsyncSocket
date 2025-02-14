@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name     = 'MqttCocoaAsyncSocket'
-  s.version  = '1.0.11'
+  s.version  = '1.0.12'
   s.license  = { :type => 'public domain', :text => <<-LICENSE
 Public Domain License
 
