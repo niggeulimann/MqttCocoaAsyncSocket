@@ -71,6 +71,7 @@
 				4AB7B6D028E4592A003ED9BF /* MGCDAsyncSocket.m */,
 				4AB7B6CF28E4592A003ED9BF /* MGCDAsyncUdpSocket.h */,
 				4AB7B6CE28E4592A003ED9BF /* MGCDAsyncUdpSocket.m */,
+				4AB7B6A428E458AD003ED9BF /* Info.plist */,
 			);
 			path = GCD;
 			sourceTree = "<group>";
@@ -97,7 +98,6 @@
 			isa = PBXGroup;
 			children = (
 				4AB7B6CC28E45913003ED9BF /* GCD */,
-				4AB7B6A428E458AD003ED9BF /* Info.plist */,
 				4AB7B6A328E458AD003ED9BF /* MqttCocoaAsyncSocket.h */,
 			);
 			path = Source;
@@ -357,7 +357,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_LABEL = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_FILE = GCD/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -425,7 +425,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_LABEL = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_FILE = GCD/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
