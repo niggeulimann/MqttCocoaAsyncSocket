@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name     = 'MqttCocoaAsyncSocket'
-  s.version  = '1.0.8'
+  s.version  = '1.0.9'
   s.license  = { :type => 'public domain', :text => <<-LICENSE
 Public Domain License
 
@@ -11,10 +11,10 @@ Updated and maintained by Deusty LLC and the Apple development community.
                  LICENSE
                }
   s.summary  = 'A socket kit based on CocoaAsyncSocket.Fix iOS16 bugs'
-  s.homepage = 'https://github.com/leeway1208/MqttCocoaAsyncSocket'
+  s.homepage = 'https://github.com/niggeulimann/MqttCocoaAsyncSocket'
   s.authors  = 'Dustin Voss', { 'Robbie Hanson' => 'robbiehanson@deusty.com' }
 
-  s.source   = { :git => 'https://github.com/leeway1208/MqttCocoaAsyncSocket.git',
+  s.source   = { :git => 'https://github.com/niggeulimann/MqttCocoaAsyncSocket',
                  :tag => "#{s.version}" }
 
   s.description = 'MqttCocoaAsyncSocket supports TCP and UDP. The AsyncSocket class is for TCP, and the AsyncUdpSocket class is for UDP. ' \
@@ -29,7 +29,7 @@ Updated and maintained by Deusty LLC and the Apple development community.
   s.requires_arc = true
 
   s.osx.deployment_target = "10.12"
-  s.ios.deployment_target = "9.0"
+  s.ios.deployment_target = "12.0"
   s.tvos.deployment_target = "10.0"
 
   s.ios.frameworks = 'CFNetwork', 'Security'
