@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name     = 'MqttCocoaAsyncSocket'
-  s.version  = '1.0.16'
+  s.version  = '1.0.17'
   s.license  = { :type => 'public domain', :text => <<-LICENSE
 Public Domain License
 
@@ -24,7 +24,7 @@ Updated and maintained by Deusty LLC and the Apple development community.
                   'version, but is designed specifically for UDP. This includes queued non-blocking send/receive operations, full ' \
                   'delegate support, run-loop based, self-contained class, and support for IPv4 and IPv6.'
 
-  s.source_files = 'Source/GCD/*.{h,m,swift,plist}'
+  s.source_files = 'Source/GCD/*.{h,m,swift}'
 
   s.requires_arc = true
 
