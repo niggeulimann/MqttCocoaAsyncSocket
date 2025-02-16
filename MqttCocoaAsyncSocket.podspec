@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name     = 'MqttCocoaAsyncSocket'
-  s.version  = '1.0.20'
+  s.version  = '1.1.0'
   s.license  = { :type => 'public domain', :text => <<-LICENSE
 Public Domain License
 
@@ -16,7 +16,6 @@ Updated and maintained by Deusty LLC and the Apple development community.
 
   s.source   = { :git => 'https://github.com/niggeulimann/MqttCocoaAsyncSocket.git',
                  :tag => "#{s.version}" }
-
 
   s.description = 'MqttCocoaAsyncSocket supports TCP and UDP. The AsyncSocket class is for TCP, and the AsyncUdpSocket class is for UDP. ' \
                   'AsyncSocket is a TCP/IP socket networking library that wraps CFSocket and CFStream. It offers asynchronous ' \
