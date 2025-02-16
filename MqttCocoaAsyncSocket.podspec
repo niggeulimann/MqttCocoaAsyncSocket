@@ -27,7 +27,6 @@ Updated and maintained by Deusty LLC and the Apple development community.
   s.source_files = 'Source/GCD/*.{h,m,swift}'
 
   s.requires_arc = true
-  s.info_plist = 'Source/Info.plist'
 
   s.osx.deployment_target = "10.13"
   s.ios.deployment_target = "12.0"
